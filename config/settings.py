@@ -124,3 +124,9 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+# Django settings.py
+
+CELERY_BROKER_URL = "redis://bot-psi-coral.vercel.app:6379/0"
+CELERY_RESULT_BACKEND = "redis://bot-psi-coral.vercel.app:6379/0"
+CELERY_BROKER_CONNECTION_RETRY_ON_STARTUP = True
+CELERY_BROKER_CONNECTION_TIMEOUT = 10  # Adjust timeout as needed
