@@ -13,6 +13,7 @@ import asyncio
 from telegram.ext import Application
 from dotenv import load_dotenv
 
+
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
 django.setup()
 
