@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-mr$a&9oj^-a546r=rx&b@fe-=xk$zmry7s3%t0pvdpc2u)l4kv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['832a-197-211-61-30.ngrok-free.app', '127.0.0.1:8000']
+ALLOWED_HOSTS = ['832a-197-211-61-30.ngrok-free.app', '127.0.0.1:8000', 'bot-psi-coral.vercel.app']
 
 
 # Application definition
