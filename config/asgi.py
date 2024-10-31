@@ -13,12 +13,14 @@ import asyncio
 from telegram.ext import Application
 from dotenv import load_dotenv
 
+
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
 django.setup()
 
 load_dotenv()
 
 application = get_asgi_application()
+app = application
 
 bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
 if bot_token:
