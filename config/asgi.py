@@ -20,6 +20,7 @@ django.setup()
 load_dotenv()
 
 application = get_asgi_application()
+app = application
 
 bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
 if bot_token:
